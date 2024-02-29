@@ -1,0 +1,26 @@
+{
+  "name": "vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^6.44.0",
+    "@babylonjs/loaders": "^6.44.0",
+    "babylonjs-materials": "^6.44.0",
+    "pinia": "^2.1.7",
+    "pug": "^3.0.2",
+    "socket.io-client": "^4.7.4",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  }
+}
